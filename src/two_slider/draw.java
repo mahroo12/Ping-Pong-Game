@@ -98,7 +98,7 @@ public class draw extends JPanel implements KeyListener, ActionListener {
 			}
 			
 			
-			if(new Rectangle(ballposx, ballposy, 20, 20).intersects(new Rectangle(slider2, 550, 100, 8)))
+			if(new Rectangle(ballposx, ballposy, 20, 20).intersects(new Rectangle(slider2, 10, 100, 8)))
 			{
 				ballydir = -ballydir;
 			}
